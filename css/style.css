@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin: 40px auto;
+}
+.container{
+    width: 70%;
+    height: 100px;
+    margin: auto;
+    /* border: 2px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#inp{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+#todo-list{
+    list-style: none;
+
+}
+
+.todocl{
+    /* background-color: rgb(98, 200, 240); */
+    margin-top: 10px;
+    padding: 5px;
+    position: relative;
+    
+}
+
+.todocl>span{
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    background-color: red ;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.strike{
+    text-decoration: line-through;
+}
